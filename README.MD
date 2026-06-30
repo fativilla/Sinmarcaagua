@@ -154,9 +154,9 @@ CustomTkinter - Interfaz moderna
 
 NumPy - Operaciones matemáticas
 
-## ⭐ Muestra tu Apoyo
+ ⭐ Muestra tu Apoyo
 Si este proyecto te ha sido útil, ¡considera darle una estrella ⭐ en GitHub!
 
-## ⭐⭐⭐⭐⭐ Usalo responsablemente.
+ ⭐⭐⭐⭐⭐ Usalo responsablemente.
 
-## Hecho con ❤️ por fativilla
+ Hecho con ❤️ por fativilla
