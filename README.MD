@@ -124,7 +124,7 @@ Tecla	Acción
 ENTER	Procesar imagen
 ESC	Limpiar selección
 
-##🔧 Cómo Funciona
+## 🔧 Cómo Funciona
 Algoritmo de Eliminación
 Detección de Áreas: El usuario selecciona manualmente las áreas con marca de agua
 
@@ -147,16 +147,16 @@ NumPy	1.19+	Operaciones con arrays
 Pillow	9.0+	Manejo de imágenes
 Threading	-	Procesamiento en segundo plano
 
-##🙏 Agradecimientos
+## 🙏 Agradecimientos
 OpenCV - Procesamiento de imágenes
 
 CustomTkinter - Interfaz moderna
 
 NumPy - Operaciones matemáticas
 
-##⭐ Muestra tu Apoyo
+## ⭐ Muestra tu Apoyo
 Si este proyecto te ha sido útil, ¡considera darle una estrella ⭐ en GitHub!
 
-##⭐⭐⭐⭐⭐ Usalo responsablemente.
+## ⭐⭐⭐⭐⭐ Usalo responsablemente.
 
 ## Hecho con ❤️ por fativilla
