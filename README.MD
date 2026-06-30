@@ -16,11 +16,8 @@ Una aplicación de escritorio con interfaz gráfica moderna para eliminar marcas
 - [Guía de Uso](#-guía-de-uso)
 - [Cómo Funciona](#-cómo-funciona)
 - [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Personalización](#-personalización)
-- [Solución de Problemas](#-solución-de-problemas)
-- [Contribuciones](#-contribuciones)
-- [Licencia](#-licencia)
+- [Agradecimientos](#-agradecimientos)
+- [Usalo responsablemente](#-Usalo-responsablemente)
 
 ---
 
@@ -67,3 +64,99 @@ Una aplicación de escritorio con interfaz gráfica moderna para eliminar marcas
 | | ✅ Listo | | | |
 | +---------+ +----------------------------------------+ |
 +----------------------------------------------------------+
+
+## 💻 Requisitos del Sistema
+
+### Hardware Mínimo
+- **Procesador:** Intel Core i3 o equivalente
+- **RAM:** 4 GB
+- **Almacenamiento:** 100 MB disponibles
+- **Resolución de pantalla:** 1280x720
+
+### Hardware Recomendado
+- **Procesador:** Intel Core i5 o superior
+- **RAM:** 8 GB o más
+- **Almacenamiento:** SSD
+
+### Sistema Operativo
+- **Windows:** 10/11 (64 bits)
+- **Linux:** Ubuntu 20.04+ o similar
+- **macOS:** 11 (Big Sur) o superior
+
+---
+
+## 📦 Instalación
+
+### 1. Clonar el Repositorio
+
+
+## 🚀 Guía de Uso
+Paso 1: Cargar una Imagen
+Haz clic en "Seleccionar Imagen"
+
+Navega hasta la ubicación de tu imagen
+
+Selecciona el archivo (formatos: JPG, PNG, BMP, TIFF, WEBP)
+
+Paso 2: Seleccionar las Marcas de Agua
+Haz clic izquierdo en una esquina del texto de la marca
+
+Arrastra el mouse hasta la esquina opuesta
+
+Suelta el click para confirmar la selección
+
+Repite el proceso para cada línea de texto
+
+Paso 3: Procesar la Imagen
+Presiona "PROCESAR" o la tecla ENTER
+
+Espera a que termine el procesamiento
+
+Recibirás una notificación con la ruta del archivo guardado
+
+Paso 4: Ver el Resultado
+Haz clic en "Sí" cuando pregunte si quieres abrir la imagen
+
+O navega manualmente a la carpeta de la imagen original
+
+Atajos de Teclado
+Tecla	Acción
+ENTER	Procesar imagen
+ESC	Limpiar selección
+
+##🔧 Cómo Funciona
+Algoritmo de Eliminación
+Detección de Áreas: El usuario selecciona manualmente las áreas con marca de agua
+
+Creación de Máscara: Se genera una máscara binaria donde las áreas seleccionadas son blancas
+
+Inpainting: OpenCV aplica el algoritmo de INPAINT_TELEA que:
+
+Analiza los píxeles alrededor del área a rellenar
+
+Propaga la información de los bordes hacia el interior
+
+Reconstruye la imagen de manera natura
+
+## 🛠️ Tecnologías Utilizadas
+Tecnología	Versión	Propósito
+Python	3.8+	Lenguaje base
+CustomTkinter	5.0+	Interfaz gráfica moderna
+OpenCV	4.5+	Procesamiento de imágenes
+NumPy	1.19+	Operaciones con arrays
+Pillow	9.0+	Manejo de imágenes
+Threading	-	Procesamiento en segundo plano
+
+##🙏 Agradecimientos
+OpenCV - Procesamiento de imágenes
+
+CustomTkinter - Interfaz moderna
+
+NumPy - Operaciones matemáticas
+
+##⭐ Muestra tu Apoyo
+Si este proyecto te ha sido útil, ¡considera darle una estrella ⭐ en GitHub!
+
+##⭐⭐⭐⭐⭐ Usalo responsablemente.
+
+## Hecho con ❤️ por fativilla
