@@ -1,0 +1,5 @@
+ Activar el entorno
+watermark_remover\Scripts\activate
+
+Cuando termines, desactivar
+deactivate

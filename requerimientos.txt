@@ -1,0 +1,76 @@
+
+---
+1.
+## 💻 Requisitos del Sistema
+
+### Hardware Mínimo
+- **Procesador:** Intel Core i3 o equivalente
+- **RAM:** 4 GB
+- **Almacenamiento:** 100 MB disponibles
+- **Resolución de pantalla:** 1280x720
+
+### Hardware Recomendado
+- **Procesador:** Intel Core i5 o superior
+- **RAM:** 8 GB o más
+- **Almacenamiento:** SSD
+
+### Sistema Operativo
+- **Windows:** 10/11 (64 bits)
+- **Linux:** Ubuntu 20.04+ o similar
+- **macOS:** 11 (Big Sur) o superior
+
+---
+
+## 📦 Instalación
+
+### 1. Clonar el Repositorio
+
+```bash
+git clone https://github.com/tu-usuario/watermark-remover.git
+cd watermark-remover
+
+2. Crear y Activar Entorno Virtual (Recomendado)
+Windows:
+
+bash
+python -m venv venv
+venv\Scripts\activate
+Linux/macOS:
+
+bash
+python3 -m venv venv
+source venv/bin/activate
+3. Instalar Dependencias
+bash
+pip install -r requirements.txt
+4. Ejecutar la Aplicación
+bash
+python main.py
+🚀 Guía de Uso
+Paso 1: Cargar una Imagen
+Haz clic en "Seleccionar Imagen"
+
+Navega hasta la ubicación de tu imagen
+
+Selecciona el archivo (formatos: JPG, PNG, BMP, TIFF, WEBP)
+
+Paso 2: Seleccionar las Marcas de Agua
+Haz clic izquierdo en una esquina del texto de la marca
+
+Arrastra el mouse hasta la esquina opuesta
+
+Suelta el click para confirmar la selección
+
+Repite el proceso para cada línea de texto
+
+Paso 3: Procesar la Imagen
+Presiona "PROCESAR" o la tecla ENTER
+
+Espera a que termine el procesamiento
+
+Recibirás una notificación con la ruta del archivo guardado
+
+Paso 4: Ver el Resultado
+Haz clic en "Sí" cuando pregunte si quieres abrir la imagen
+
+O navega manualmente a la carpeta de la imagen original
