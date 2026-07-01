@@ -1,11 +1,10 @@
-# 🖼️ Watermark Remover - Eliminador de Marcas de Agua
-
+# 🖼️ Watermark Remover - Eliminador imperfecciones en fotografias
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg)
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.0+-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Una aplicación de escritorio con interfaz gráfica moderna para eliminar marcas de agua de imágenes de manera selectiva y precisa.
+Una aplicación de escritorio con interfaz gráfica moderna para eliminar imperfecciones de imágenes de manera selectiva y precisa.
 
 ## 📋 Tabla de Contenidos
 
@@ -42,14 +41,14 @@ Una aplicación de escritorio con interfaz gráfica moderna para eliminar marcas
 ### Interfaz Principal
 
 +----------------------------------------------------------+
-| 🖼️ Eliminador de Marca de Agua |
+| 🖼️ Eliminador de Marca de imperfecciones |
 | +---------+ +----------------------------------------+ |
 | | 📁 CARGAR | | [Área de la imagen] | |
 | | IMAGEN | | | |
 | | | | ______________ | |
 | | 📂 Sele- | | | | | |
 | | ccionar | | | MARCA DE | ← Selección con | |
-| | Imagen | | | AGUA | mouse | |
+| | Imagen | | | imagen | mouse | |
 | | | | |______________| | |
 | | ✏️ INST- | | | |
 | | RUCCIO- | | | |
@@ -98,8 +97,8 @@ Navega hasta la ubicación de tu imagen
 
 Selecciona el archivo (formatos: JPG, PNG, BMP, TIFF, WEBP)
 
-Paso 2: Seleccionar las Marcas de Agua
-Haz clic izquierdo en una esquina del texto de la marca
+Paso 2: Seleccionar las imperfecciones a eliminar
+Haz clic izquierdo en una esquina de la imperfeccion
 
 Arrastra el mouse hasta la esquina opuesta
 
@@ -126,7 +125,7 @@ ESC	Limpiar selección
 
 ## 🔧 Cómo Funciona
 Algoritmo de Eliminación
-Detección de Áreas: El usuario selecciona manualmente las áreas con marca de agua
+Detección de Áreas: El usuario selecciona manualmente las áreas 
 
 Creación de Máscara: Se genera una máscara binaria donde las áreas seleccionadas son blancas
 
