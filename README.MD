@@ -1,4 +1,4 @@
-# 🖼️ Watermark Remover - Eliminador imperfecciones en fotografias
+# 🖼️ Imperfection Remover - Eliminador imperfecciones en fotografias
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg)
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.0+-orange.svg)
